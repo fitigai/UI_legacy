@@ -1,5 +1,5 @@
 {
-  "name": "@fitigai/UI",
+  "name": "@fitigai/ui",
   "version": "1.0.0",
   "description": "UI components packages for Fitigai",
   "main": "index.js",
@@ -48,5 +48,8 @@
     "react-draft-wysiwyg": "^1.14.5",
     "react-dates": "^21.8.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
