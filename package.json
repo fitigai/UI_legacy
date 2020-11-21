@@ -1,0 +1,52 @@
+{
+  "name": "@fitigai/UI",
+  "version": "1.0.0",
+  "description": "UI components packages for Fitigai",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitigai/UI.git"
+  },
+  "keywords": [
+    "Fitigai",
+    "UI"
+  ],
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/fitigai/UI/issues"
+  },
+  "homepage": "https://github.com/fitigai/UI#readme",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "downshift": "^6.0.6",
+    "evergreen-ui": "^4.24.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1",
+    "downshift": "^6.0.6",
+    "evergreen-ui": "^4.24.0",
+    "styled-components": "^5.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.1",
+    "style-loader": "^2.0.0",
+    "draft-js": "^0.11.5",
+    "draftjs-to-html": "^0.9.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-dates": "^21.8.0"
+  },
+  "dependencies": {}
+}
